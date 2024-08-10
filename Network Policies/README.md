@@ -16,6 +16,10 @@ This makes it possible for kubernetes nodes to communicate
 ```
 kubectl get netpol
 ```
+## To scale replicas 
+```
+scale deploy coredns replica=2 -n=kubesystem
+```
 
 ## Link to install Calico
 ```
